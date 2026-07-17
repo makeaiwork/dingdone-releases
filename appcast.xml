@@ -1,12 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>DingDone</title>
-    <description>DingDone update feed</description>
-    <language>ru</language>
-  </channel>
-</rss><!-- sparkle-signatures:
-edSignature: I0LnF9qeKdWxGu7xG0s1+F3RykdG0iiQ5ktBA52+NVfa+fzVadcAFcw5iy1p0kEUgLMe2hlSOFN4tGln9reCCA==
-length: 518
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DingDone</title>
+        <description>DingDone update feed</description>
+        <language>en</language>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Fri, 17 Jul 2026 20:35:25 +0300</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.0
+
+The first public release of DingDone.
+
+## What's new
+
+- Voice notifications when Claude Code and Codex finish work, need an answer, or continue working.
+- Offline speech using macOS system voices, with language, voice, phrase, and per-project settings.
+- A menu-bar panel with recent events, quick sound controls, and navigation to the relevant project or session.
+- Agent Cockpit: a floating widget and a list of sessions that need attention.
+- A library of additional voices and secure DingDone Pro activation.
+- Signed Sparkle updates with manual checks, background downloads, and English release notes.
+
+## Reliability and privacy
+
+- Agent hooks call a separate CLI, so notifications continue to work when the DingDone window is closed.
+- Free mode with system voices works locally and does not require an account.
+- Full agent message contents are not written to the event log.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.0/DingDone-1.0.0.dmg" length="5537255" type="application/octet-stream" sparkle:edSignature="jPbuFWytEDJhULbS0FNNu7EcVqX15zEeurr7Q+H/QofwcbK0rskWPeLT/2byx1758y/ZAplVPIxB6Pl1i4MIAg=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: oA53iswDWR+lQgHRufMymIVLhWxkiWRfgbZ69f7FmERwCwPStQXhsMgx+JK6c09ndG43fHMEwi2cQYn3sZOzDg==
+length: 2211
 -->
