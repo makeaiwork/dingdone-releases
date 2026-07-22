@@ -8,6 +8,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Wed, 22 Jul 2026 17:12:38 +0300</pubDate>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.3
+
+## New
+
+- DingDone now detects Codex hooks that still need approval and guides you to the correct settings.
+
+## Improved
+
+- Hosted voice previews are cached locally for faster repeat playback.
+- Per-project voice selection is available again.
+- The widget attention indicator now stays attached to the mascot.
+
+## Fixed
+
+- ElevenLabs connection status stays “Not checked” while a key is being entered and changes to “Connected” only after successful verification.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.3/DingDone-1.0.3.dmg" length="7329992" type="application/octet-stream" sparkle:edSignature="mIsqcL4Nq1h4woN4L3ndPWKwACfjl1KnX8ISZj/HSh2eO4Qx86HjKDxxCZaeHu5xFo/wGEXPtRIsElVsje3/Ag=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Wed, 22 Jul 2026 12:53:15 +0300</pubDate>
             <sparkle:version>1.0.2</sparkle:version>
@@ -67,6 +92,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 37m1EfFavljYoEHsnWm+Nj64KJpPWksCZ/1sIcrIXUYGJGr6pzk6XOUE+zB1GUNGKfupxfO0ZTm4xFaIcHCMAg==
-length: 3977
+edSignature: MOpJTGBiALL5urYH+l85GZa0O4cLIaKNiQzJAHAOlis3G/UNLcZaOVSt90Ai1O5zESfYBpovvQ3pvs8yXcjGBg==
+length: 5240
 -->
