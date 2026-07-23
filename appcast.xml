@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Thu, 23 Jul 2026 23:50:16 +0300</pubDate>
+            <sparkle:version>1.0.4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.4
+
+## Improved
+
+- Premium voice notifications now wait a little longer for cloud speech before falling back to a system voice, improving reliability on slower connections.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.4/DingDone-1.0.4.dmg" length="7330059" type="application/octet-stream" sparkle:edSignature="4hXFwLYBC6d2SlznZQqgE272FixVaI0z9i7oV7N5qNO8eooceGhKTIjtsi1fq8Vt2m6IcXGVHUMd/8P0O3lYBQ=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Wed, 22 Jul 2026 17:12:38 +0300</pubDate>
             <sparkle:version>1.0.3</sparkle:version>
@@ -92,6 +107,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MOpJTGBiALL5urYH+l85GZa0O4cLIaKNiQzJAHAOlis3G/UNLcZaOVSt90Ai1O5zESfYBpovvQ3pvs8yXcjGBg==
-length: 5240
+edSignature: KyuSAqCZzL4HMmLlJK2IKiUzjYohWRdb0OpJpB7s3rhTJfzx6qrctpMKxm/oG9R8arJjfjUEw97EZAAMh7nCDA==
+length: 6200
 -->
