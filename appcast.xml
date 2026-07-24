@@ -8,6 +8,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Fri, 24 Jul 2026 03:02:20 +0300</pubDate>
+            <sparkle:version>1.0.5</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.5
+
+## Fixed
+
+- Codex sessions now open correctly from refreshed VS Code workspace windows after a Codex extension update.
+- False “waiting for input” notifications are now suppressed when a Codex Computer Use action has already completed or failed.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.5/DingDone-1.0.5.dmg" length="7373317" type="application/octet-stream" sparkle:edSignature="MQrmvdM9DCliS8QS2LYzc3IRIGwZAGUYTLX3lCqNaKh+WKo+Eb5oS89ZRbZeV9usOkjcqcILxYRuchJkdixjCw=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Thu, 23 Jul 2026 23:50:16 +0300</pubDate>
             <sparkle:version>1.0.4</sparkle:version>
@@ -107,6 +123,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KyuSAqCZzL4HMmLlJK2IKiUzjYohWRdb0OpJpB7s3rhTJfzx6qrctpMKxm/oG9R8arJjfjUEw97EZAAMh7nCDA==
-length: 6200
+edSignature: tQfXoXg9ujBWiaD9jZoT+qh04tFpYt6K2ib31giXEttJUM2je3HaP9pCHMWGn+GhtwFsmaP4WApePVI0gZFRDQ==
+length: 7241
 -->
