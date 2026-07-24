@@ -8,6 +8,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Fri, 24 Jul 2026 19:35:54 +0300</pubDate>
+            <sparkle:version>1.0.6</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.6
+
+## Improved
+
+- Notifications now wait for audio to become ready after your Mac wakes, preventing missed voice announcements.
+- Event history now shows dates and keeps delayed playback results attached to the original notification.
+- Generated Codex workspace names are now spoken naturally in your selected language.
+
+## Fixed
+
+- DingDone no longer plays duplicate Codex notifications during ChatGPT Voice conversations.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.6/DingDone-1.0.6.dmg" length="7532848" type="application/octet-stream" sparkle:edSignature="tGp0kmIQLr1icuiR/S6ioABeNgy8n6AXb3RKWTi/2+JmhA06AZweFH8wB8XOvy1CTW4QX6s3muHUF1eUkIUeCQ=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Fri, 24 Jul 2026 03:02:20 +0300</pubDate>
             <sparkle:version>1.0.5</sparkle:version>
@@ -123,6 +144,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: tQfXoXg9ujBWiaD9jZoT+qh04tFpYt6K2ib31giXEttJUM2je3HaP9pCHMWGn+GhtwFsmaP4WApePVI0gZFRDQ==
-length: 7241
+edSignature: D2KIbBh0e/JdO6ajfbyKf9zYnwPgqChsJQMtyO1Ca+C0Q3wXFA2r9SrmVZk79egMmi4eoXWP5MAntjbfCJRbBg==
+length: 8453
 -->
