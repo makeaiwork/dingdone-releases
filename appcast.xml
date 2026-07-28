@@ -8,6 +8,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Tue, 28 Jul 2026 20:11:17 +0300</pubDate>
+            <sparkle:version>1.0.8</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.8
+
+## What's new
+
+- Quitting DingDone now immediately stops Claude Code and Codex speech, sounds, and notification history. Reopen the app to resume notifications without restarting agent sessions.
+- The existing “Waiting reminder” setting now also works with Claude Code, repeating an unanswered prompt once after your selected delay.
+
+## Fixed
+
+- Claude Code reminders now clear correctly when a prompt is answered or the session moves on, preventing stale “still waiting” announcements.
+- Cursor sessions are now recognized separately from VS Code, avoiding incorrect session-opening behavior from the inbox.
+- Claude Code sandbox, execution-environment, and policy failures now appear under the correct error category.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.8/DingDone-1.0.8.dmg" length="7532319" type="application/octet-stream" sparkle:edSignature="Uc3znDedIztRUnMlya9iw1MnS4QuT7XinPHWhgR7hCE8GTExe/aUDz6ULCqNiCSY/zArIGPNtK5RnRRMoKMoBA=="/>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Mon, 27 Jul 2026 20:45:37 +0300</pubDate>
             <sparkle:version>1.0.7</sparkle:version>
@@ -160,6 +182,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6lv/Eee1PaBi1FYX+WRba7GLP4OOcIltX70Mdsvmk0hCJhg3dbFQ8vic14VFaFnpXOer8DJmB/Z5EfbLVXy1DA==
-length: 9606
+edSignature: VyHqGd6+1Rdpulx4zw1fVQ425u7lNmDKAVHlMh9F2G8w0gKXKEyMqUwBgXymGt8ezztRbGj2+L46mAq/xXKnAQ==
+length: 11125
 -->
