@@ -1,9 +1,9 @@
 # DingDone releases
 
-Обновления приложения DingDone — голосовые уведомления для AI-агентов
-(Claude Code, Codex) на macOS.
+DingDone updates — voice notifications for AI coding agents
+(Claude Code and Codex) on macOS.
 
-- `appcast.xml` — лента обновлений Sparkle (приложение проверяет её само).
-- DMG каждой версии лежит в GitHub Releases этого репозитория.
+- `appcast.xml` is the Sparkle update feed used by the app.
+- The DMG for each version is available in this repository's GitHub Releases.
 
-Исходный код в этом репозитории не публикуется.
+The source code is not published in this repository.
