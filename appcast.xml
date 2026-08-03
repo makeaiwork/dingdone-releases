@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.9</title>
+            <pubDate>Mon, 03 Aug 2026 16:39:51 +0300</pubDate>
+            <sparkle:version>1.0.9</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.9
+
+## Fixed
+
+- Clicking a DingDone notification from the native Codex app now opens the correct Codex conversation instead of routing to Visual Studio Code.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.9/DingDone-1.0.9.dmg" length="7532370" type="application/octet-stream" sparkle:edSignature="9u8bBoaLZ9mIXCrZ94Jiu8Kj39Va2iCVfSOlEHe+OCl/KCGrr/ow/xsyLdYiL6O/Sb7fpOzBh6fgEoqX5f5uAw=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <pubDate>Tue, 28 Jul 2026 20:11:17 +0300</pubDate>
             <sparkle:version>1.0.8</sparkle:version>
@@ -182,6 +197,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VyHqGd6+1Rdpulx4zw1fVQ425u7lNmDKAVHlMh9F2G8w0gKXKEyMqUwBgXymGt8ezztRbGj2+L46mAq/xXKnAQ==
-length: 11125
+edSignature: k0OaUL/DWJ7uwBN6aXuFiXrR36IRHdaFjPxPWxapIH+RTqjx/VI08pvYkoFetX1ifmbaMpFnbwm39nH42SNmBQ==
+length: 12070
 -->
