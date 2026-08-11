@@ -8,6 +8,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.12</title>
+            <pubDate>Tue, 11 Aug 2026 03:41:01 +0300</pubDate>
+            <sparkle:version>1.0.12</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.12
+
+## Improved
+
+- Audio notifications now wait for an output device to become available and retry transient playback failures, helping delivery recover after a sleeping monitor or audio-route change.
+- Claude Code now announces replies triggered by another agent session as progress instead of completion, reducing false “finished work” notifications during parallel work.
+
+## Fixed
+
+- Claude Code waiting notifications now react only to prompts that actually require your input, while completed or dismissed prompts clear stale reminders quietly.
+- The Settings window now restores at a usable minimum size and stays within the visible screen after display changes.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.12/DingDone-1.0.12.dmg" length="7648562" type="application/octet-stream" sparkle:edSignature="/elDxsz61V8X5dhhXTAo1nis5eF1zjDT3A8UvveUI/6icKlimg8mQsLcaEFFZTpuSj05tUzW1RrDBJFjzf5fCw=="/>
+        </item>
+        <item>
             <title>1.0.11</title>
             <pubDate>Mon, 03 Aug 2026 22:00:15 +0300</pubDate>
             <sparkle:version>1.0.11</sparkle:version>
@@ -228,6 +249,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vkh16YddaRMr5j9it4bNgc6viTQgafmKIQlHWviKw5l/R2IM6IgQDvwK4KeJIc8Z9+0/IDo+087XLiUUYXJ2Dw==
-length: 14091
+edSignature: 2aSxqbuKq3YTA9HiVs31PmSteTQwaZexU330cbQ6fZhRkYUt5eLubealtXRS037qd5qISuewtMKK0qJEZ4KPAA==
+length: 15556
 -->
