@@ -8,6 +8,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.13</title>
+            <pubDate>Fri, 14 Aug 2026 14:32:38 +0300</pubDate>
+            <sparkle:version>1.0.13</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.13
+
+## Improved
+
+- Clicking a Codex notification now opens its thread in the client where it is currently active, even when the thread was created in another client.
+
+## Fixed
+
+- Claude Code turns paused on a background build now announce progress instead of incorrectly reporting completion.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.13/DingDone-1.0.13.dmg" length="7666994" type="application/octet-stream" sparkle:edSignature="ksCHdVbkbUYPDFGz5Bi8nZsM+HUFWpjqN66WqftZGG9QeyCb1u+mx6uhXV9jMO1e3gnhyFUQTgzCPVGl0BZyDQ=="/>
+        </item>
+        <item>
             <title>1.0.12</title>
             <pubDate>Tue, 11 Aug 2026 03:41:01 +0300</pubDate>
             <sparkle:version>1.0.12</sparkle:version>
@@ -249,6 +268,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2aSxqbuKq3YTA9HiVs31PmSteTQwaZexU330cbQ6fZhRkYUt5eLubealtXRS037qd5qISuewtMKK0qJEZ4KPAA==
-length: 15556
+edSignature: J1sSxhnZGZ/xr4IfwYHl4yWCWXoOytbUh2XQ6HgkFzLy69Mp3kvqI15n10OKFGJF/CZHuLSiwu8CowTrOGpnCQ==
+length: 16642
 -->
