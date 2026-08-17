@@ -8,6 +8,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.14</title>
+            <pubDate>Mon, 17 Aug 2026 12:38:54 +0300</pubDate>
+            <sparkle:version>1.0.14</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.14
+
+## Fixed
+
+- Codex thread links no longer stop unnecessarily after an extension update or because a different VS Code window encountered a connection problem.
+- When a Codex window does need recovery, DingDone now recommends reloading that window before restarting VS Code.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.14/DingDone-1.0.14.dmg" length="7668278" type="application/octet-stream" sparkle:edSignature="fdU8xAhJQ2z92jG6SUofySaw73Dnzc/YB6IEvanMZG/Kbb7SWU9zx1kc9rMh7vKzkGiAErlwY9Ln/NxhJsFRBw=="/>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Fri, 14 Aug 2026 14:32:38 +0300</pubDate>
             <sparkle:version>1.0.13</sparkle:version>
@@ -268,6 +284,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: J1sSxhnZGZ/xr4IfwYHl4yWCWXoOytbUh2XQ6HgkFzLy69Mp3kvqI15n10OKFGJF/CZHuLSiwu8CowTrOGpnCQ==
-length: 16642
+edSignature: nr4juY6l3UxyYOHvdysOb6ah7Qx2esFnrVsrylQnSTL8t2KUZFDgr6kdgewflf3VUYgiMwxVje4TFNiE0shZAw==
+length: 17712
 -->
