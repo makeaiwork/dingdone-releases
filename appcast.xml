@@ -8,6 +8,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Wed, 19 Aug 2026 15:05:59 +0300</pubDate>
+            <sparkle:version>1.0.15</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.15
+
+## Improved
+
+- Claude Code waiting diagnostics now identify the delivery path using metadata only, making notification issues easier to investigate without recording message text, tool input, transcripts, or session IDs.
+
+## Fixed
+
+- Codex notifications now stay linked to the correct conversation after you edit an earlier message, so inbox navigation and reminders follow the latest active rollout.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.15/DingDone-1.0.15.dmg" length="7685520" type="application/octet-stream" sparkle:edSignature="jPur3KOrjvL0dDrvrcraGtgvMWf3imwbnNrnGqV9fuJDcku6ARUXtbUyM1Gq40TR5JXfNFhprDb0RoA1eXjRBg=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Mon, 17 Aug 2026 12:38:54 +0300</pubDate>
             <sparkle:version>1.0.14</sparkle:version>
@@ -284,6 +303,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nr4juY6l3UxyYOHvdysOb6ah7Qx2esFnrVsrylQnSTL8t2KUZFDgr6kdgewflf3VUYgiMwxVje4TFNiE0shZAw==
-length: 17712
+edSignature: QZMYfVWy0XxXr/vnnQLz9ZjTythgqAlPs9PLWm1/FrzVn+FStsfAYsJh+qBynSbQoZ6RQEjuyj/b9iITmCZnCw==
+length: 18910
 -->
