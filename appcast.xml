@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.19</title>
+            <pubDate>Wed, 02 Sep 2026 00:22:08 +0300</pubDate>
+            <sparkle:version>1.0.19</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.19
+
+## Fixed
+
+- Fixed removed projects sometimes reappearing in the project list.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.19/DingDone-1.0.19.dmg" length="7762631" type="application/octet-stream" sparkle:edSignature="kyao93voCryW2Za14gDlT6WsNlHtUP6B2mwdpqJDDgxX2ET8qd3Z9viJB7VkMLHrtLZ1IXhxVx7j88NvdswmDA=="/>
+        </item>
+        <item>
             <title>1.0.18</title>
             <pubDate>Tue, 01 Sep 2026 19:41:01 +0300</pubDate>
             <sparkle:version>1.0.18</sparkle:version>
@@ -354,6 +369,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RG+YMWE5/llzbsaB/qzowJzczaG4Dv5oE+1wOEWTUf3S/i4y+qwzO+kHA++fhUJYYcM9ehiWKbhvt4lQnbsHDQ==
-length: 21993
+edSignature: egT+3GwNzHY8N+dy1l0kIHHrCZD/lLfnrBZY2/8FRYYYf9RDL5qgZoI1Aq/8k5RzxFKtSphWIfxHfKzPCe33CQ==
+length: 22868
 -->
