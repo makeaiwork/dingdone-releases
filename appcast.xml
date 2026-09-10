@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Thu, 10 Sep 2026 23:43:42 +0300</pubDate>
+            <sparkle:version>1.0.20</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.20
+
+## What's new
+
+- Added full DingDone support for Claude Code and Codex agents running locally in Conductor, including voice notifications, activity tracking, and direct navigation back to the matching chat.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.20/DingDone-1.0.20.dmg" length="7808360" type="application/octet-stream" sparkle:edSignature="YBt5i0DrTkufkGIsDPDStz//5hiSgk4T0gz+16wRQDP0D96fZX3cfGuIGTzgNAW2rHyeDh/VsTVnhokuJqT6Dw=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Wed, 02 Sep 2026 00:22:08 +0300</pubDate>
             <sparkle:version>1.0.19</sparkle:version>
@@ -369,6 +384,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: egT+3GwNzHY8N+dy1l0kIHHrCZD/lLfnrBZY2/8FRYYYf9RDL5qgZoI1Aq/8k5RzxFKtSphWIfxHfKzPCe33CQ==
-length: 22868
+edSignature: A0dhD/+TTXbUhrk/gULZql4d9kH62xfhICzBIrYPss1x9uCcq6cPct+vRh+RPvK56wDp+DHe7YqThmP/UdPABA==
+length: 23872
 -->
