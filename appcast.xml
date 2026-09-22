@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.0.23</title>
+            <pubDate>Wed, 23 Sep 2026 00:06:20 +0300</pubDate>
+            <sparkle:version>1.0.23</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.0.23
+
+## What's new
+
+- Open a DingDone notification directly in the matching Claude Code session in the VS Code sidebar, with a bundled companion extension you can install and manage from Connections.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.0.23/DingDone-1.0.23.dmg" length="8523894" type="application/octet-stream" sparkle:edSignature="5t78iEPZvrEB82jqpZIpmFVjLZJwphvJ+ocRqKVUc4PNBeRAuyRyjCCIhGMPB/JabxGsuVlmEv/vyiKvI0cXCg=="/>
+        </item>
+        <item>
             <title>1.0.22</title>
             <pubDate>Tue, 22 Sep 2026 16:07:36 +0300</pubDate>
             <sparkle:version>1.0.22</sparkle:version>
@@ -414,6 +429,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wFvX7Ms7T0CXMYFpt5levwuuSkKujbTcjZarI+TVwO6StG3cAuhKTaunc/zSMiy3aoRLDsLVbAFsIxiUCbTjDA==
-length: 25705
+edSignature: /znLW36x3UtX/63a0EOX/cCf1cSyjZqV8v/chCODR8TqYXDQCZXV2bR3+Du7DUI8/T1tNXs5ihiIgv9k1vlDDw==
+length: 26697
 -->
