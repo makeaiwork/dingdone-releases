@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Fri, 25 Sep 2026 00:55:59 +0300</pubDate>
+            <sparkle:version>1.1.1</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.1.1
+
+## Fixed
+
+- The menu bar panel no longer jumps away or appears to close when you collapse the mute presets or the voice list, including with menu bar managers such as Ice or Bartender.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.1.1/DingDone-1.1.1.dmg" length="13488559" type="application/octet-stream" sparkle:edSignature="LadqqtJdkBhLRyW2PU62ewwrzqrajSixXJACg9qbgcl46p2Tkw+vT8HAonex1Ollp1uk8+wGCk3WTzPJPMfeDA=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Fri, 25 Sep 2026 00:20:00 +0300</pubDate>
             <sparkle:version>1.1.0</sparkle:version>
@@ -455,6 +470,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KAruDJLabio3gAZQ3POJuyFDRVMNDYzGOdoHl3kGC+gIFm66aFdmN628IUCuNwSYBrg6mZ02EwCxni7xTw9ADg==
-length: 28317
+edSignature: gRGuMokSUwAoEX7KTN1TzL20M39zPUzZMbH8Hr2XoXqzba9vjCa0RKu9kfGI6GZuW6Q9f7TEnQc+R4ravMjLCQ==
+length: 29294
 -->
