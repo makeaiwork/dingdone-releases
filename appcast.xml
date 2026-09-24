@@ -8,6 +8,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 25 Sep 2026 00:20:00 +0300</pubDate>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.1.0
+
+## What's new
+
+- Redesigned floating widget: a "Needs attention" panel that groups your sessions by status, with Clear all and undo.
+- Redesigned notification toasts: the newest card is on top, with a timer ring that pauses while you hover.
+- New menu bar panel with timed mute, volume, favorite voices and today's stats.
+- New Overview screen with daily stats for each project.
+- The VS Code extension that opens Claude Code sessions now installs and updates itself automatically.
+- Redesigned Settings, and the Journal opens faster.
+
+## Fixed
+
+- Clicking a Claude notification opens the exact session again after Claude Code updates itself.
+- Claude notifications now open the session even when the agent has moved into a subfolder of the project.
+- Codex reviews started from Claude Code no longer announce "Codex finished".
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.1.0/DingDone-1.1.0.dmg" length="13494115" type="application/octet-stream" sparkle:edSignature="LCj3GqGDjE4/0uE69C3y4brMbYeRIGQuf9OMbmakZkfw0Fnxmlm16f8CpIBjSOW+u8bT5XncZghuC1u4KluiAQ=="/>
+        </item>
+        <item>
             <title>1.0.23</title>
             <pubDate>Wed, 23 Sep 2026 00:06:20 +0300</pubDate>
             <sparkle:version>1.0.23</sparkle:version>
@@ -429,6 +455,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /znLW36x3UtX/63a0EOX/cCf1cSyjZqV8v/chCODR8TqYXDQCZXV2bR3+Du7DUI8/T1tNXs5ihiIgv9k1vlDDw==
-length: 26697
+edSignature: KAruDJLabio3gAZQ3POJuyFDRVMNDYzGOdoHl3kGC+gIFm66aFdmN628IUCuNwSYBrg6mZ02EwCxni7xTw9ADg==
+length: 28317
 -->
