@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.1.2</title>
+            <pubDate>Fri, 25 Sep 2026 21:11:04 +0300</pubDate>
+            <sparkle:version>1.1.2</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.1.2
+
+## Fixed
+
+- DingDone no longer crashes when a notification card closes while your display is asleep. Previously the crash also silenced all later notifications until you reopened the app.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.1.2/DingDone-1.1.2.dmg" length="13491330" type="application/octet-stream" sparkle:edSignature="MS75QgqdePyFB4y7UpXjNyL8gNCoT219hv+7fwQvZlaGs5YtjyNJPm+0pac+iuJPkO0iWnbO7FYf8ek1oxwZCQ=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Fri, 25 Sep 2026 00:55:59 +0300</pubDate>
             <sparkle:version>1.1.1</sparkle:version>
@@ -470,6 +485,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: gRGuMokSUwAoEX7KTN1TzL20M39zPUzZMbH8Hr2XoXqzba9vjCa0RKu9kfGI6GZuW6Q9f7TEnQc+R4ravMjLCQ==
-length: 29294
+edSignature: WuEHyJlCPoH9xrFa73GOEtuWQMP3MG34ove6hruVawxaXripD4/O1HztBxEp+cS/PLLM/m9RtzzKGPpgvjL7CA==
+length: 30274
 -->
