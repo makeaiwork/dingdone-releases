@@ -8,6 +8,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.1.4</title>
+            <pubDate>Thu, 01 Oct 2026 02:41:17 +0300</pubDate>
+            <sparkle:version>1.1.4</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.1.4
+
+## What's new
+
+- Clicking a card in Needs attention now moves it to Recent immediately. If opening the session fails, you can retry from Recent.
+
+## Fixed
+
+- Restored opening Claude Code 2.1.286 sessions in the VS Code sidebar.
+- Reduced false "Codex finished" announcements for Codex review runs started by Claude Code.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.1.4/DingDone-1.1.4.dmg" length="13492979" type="application/octet-stream" sparkle:edSignature="GwCC4dTNG5MjN976W3QGccAYI3tXOHfFZh97phoqcdaT6axTKX1hfs2kaNkCt2HjHsYckZxPlogTvGyuugq7AQ=="/>
+        </item>
+        <item>
             <title>1.1.2</title>
             <pubDate>Fri, 25 Sep 2026 21:11:04 +0300</pubDate>
             <sparkle:version>1.1.2</sparkle:version>
@@ -485,6 +505,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: WuEHyJlCPoH9xrFa73GOEtuWQMP3MG34ove6hruVawxaXripD4/O1HztBxEp+cS/PLLM/m9RtzzKGPpgvjL7CA==
-length: 30274
+edSignature: gAof2dMm2KjLIYIn8FQpjVSATCFXsqnVCy8L0rpbwGEJYP/+nzTX8JCo7Owxa3pUq0O7V9AsovMOHwzcgNXlDg==
+length: 31387
 -->
