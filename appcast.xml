@@ -8,6 +8,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Mon, 12 Oct 2026 23:08:51 +0300</pubDate>
+            <sparkle:version>1.2.2</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.2.2
+
+## What's new
+
+- Notifications for Codex questions that let the agent continue working while waiting for your answer.
+- Automatic update checks at launch and about every six hours while DingDone is running, when enabled.
+
+## Fixed
+
+- Unanswered Codex questions stay visible while work continues, with separate alerts for simultaneous questions.
+- Improved detection of app-access approval prompts from newer Codex Computer Use tools. Alerts now clear when the request ends, even with reminders disabled.
+- Stale question alerts clear when DingDone restarts or Codex notifications are disabled.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.2.2/DingDone-1.2.2.dmg" length="13621949" type="application/octet-stream" sparkle:edSignature="6ZjgIVNmtjuFm4ULBYc2wtKrilsfOKDzUnI1G74sojgvzgWhh5rzFb72OZNtjQSmGIipN3f2GtoRjhEirPLZDA=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Mon, 05 Oct 2026 20:10:52 +0300</pubDate>
             <sparkle:version>1.2.1</sparkle:version>
@@ -546,6 +568,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: mk8WsR6TydZnYgbjnqCWFXCPTNMrh2dFRslMNbGlG3FU1v09KZjEo/UVaO3G3488C0GHRn0OZCIhO4iy4hy/AA==
-length: 34145
+edSignature: FIlfI5UaQl+Y5Ev2MCrYWJy17dMi5DNT27rGs5SvRON2yau8UsULGFutyXgr5Z3amBcuA7ewbcW/Xl0vHU4zBA==
+length: 35531
 -->
