@@ -8,6 +8,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Fri, 16 Oct 2026 03:49:43 +0300</pubDate>
+            <sparkle:version>1.2.3</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.2.3
+
+## Fixed
+
+- Fixed duplicate completion notifications from Codex Desktop's background message predictions. The extra notifications could open the project in VS Code.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.2.3/DingDone-1.2.3.dmg" length="13560163" type="application/octet-stream" sparkle:edSignature="8Y9hM7gfWuJMBWdcwQEgoyqkxerKPS7v7LxmKPrODkXL1M33xI7dHTe0d70KErXLUN+DUIzbBrngSQ65yQQqCA=="/>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Mon, 12 Oct 2026 23:08:51 +0300</pubDate>
             <sparkle:version>1.2.2</sparkle:version>
@@ -568,6 +583,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: FIlfI5UaQl+Y5Ev2MCrYWJy17dMi5DNT27rGs5SvRON2yau8UsULGFutyXgr5Z3amBcuA7ewbcW/Xl0vHU4zBA==
-length: 35531
+edSignature: BWVEFCvncViAxXU0QVMlL1CLllXB5zmjG6xqumnfjdJVN4alxW2gtHxmWevLRtPMhlq6KjPQWSt284kGBqGpBA==
+length: 36488
 -->
