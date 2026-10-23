@@ -8,6 +8,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Fri, 23 Oct 2026 18:55:51 +0300</pubDate>
+            <sparkle:version>1.2.5</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.2.5
+
+## What's new
+
+- Added support for local Claude Code and Codex sessions in cmux. New notification cards can open the original terminal tab in cmux 0.65.2 or later.
+- For tmux sessions inside cmux, notification cards open cmux for manual tab selection.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.2.5/DingDone-1.2.5.dmg" length="13593467" type="application/octet-stream" sparkle:edSignature="2Bqe6pRLy8HSnctIfx5yQj5Ga/ScMLpDZavjsjOLuJHqv1tCoE3cHe2wOWqmfB6NL+mt4aNBuAR0JySWMQArAA=="/>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Thu, 22 Oct 2026 17:25:45 +0300</pubDate>
             <sparkle:version>1.2.4</sparkle:version>
@@ -600,6 +616,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: YkY3Yzz6Xvq548NYU4I66aQUH3QXAvVARHvuov+EuAirKhmisU1dv/BlwHxwE9KazKiMrFTikzzE5wH1b88KDg==
-length: 37713
+edSignature: QjBMnILwdBA0dYCvNxa2kci011V2HkGnRmoyppjYcA5lqFjZRjL1yfuzxoVQG3ERAuoU+IE506NxQegFsX+sBA==
+length: 38757
 -->
