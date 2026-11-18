@@ -23,17 +23,19 @@
   Apple silicon · macOS 13 or newer · signed and notarized by Apple · free, no account
 </p>
 
+<p align="center">
+  <img src="screenshots/hero.gif" width="880" alt="DingDone in action: a notification card says which project is waiting, and a voice reads it out">
+</p>
+
 ---
 
-> **"Claude Code, Kanvi, finished working."**
-> **"Codex, benefits, is waiting for a response."**
+> **"Claude Code, Atlas, finished working."**
+> **"Codex, Photon, is waiting for a response."**
 
 DingDone is a small menu-bar app. When Claude Code or Codex finishes a task, asks a question,
 needs a permission or stops with an error, DingDone plays a short chime and says which agent it
 was, in which project, and what happened. You can stop watching the spinner and come back only
 when something meaningful changes.
-
-![DingDone overview: today's events, agent status and projects](screenshots/overview.png)
 
 ## What it does
 
@@ -52,19 +54,30 @@ when something meaningful changes.
 
 ## A closer look
 
+**Overview.** Today at a glance: finished tasks, how often and how long agents waited for you,
+errors, and which projects were busiest.
+
+![Overview: today's events, agent status and projects](screenshots/overview.png)
+
+**Widget.** A slim panel at the edge of the screen shows active sessions by status. A card slides
+out when something happens and hides on its own. Choose a mascot, icons or plain numbers.
+
+![Widget settings with a live preview of the edge panel](screenshots/widget.png)
+
+**Voices.** Use any macOS voice for free, or pick from the Premium library: narrators,
+announcers, calm and energetic voices in many languages. You can also bring your own ElevenLabs key.
+
+![Premium voice library with tags and previews](screenshots/voices-premium.png)
+
+**Connections.** One click adds DingDone's hooks to Claude Code and Codex. The VS Code extension
+lets a notification open the exact Claude Code session.
+
+![Connections: Claude Code, Codex, VS Code extension and speech services](screenshots/connections.png)
+
 **Sound & Phrases.** Pick a chime and a phrase for each event, set the speech rate and volume,
 and choose how long DingDone waits before reminding you that an agent is still waiting.
 
-![Sound & Phrases settings: speech rate, volume, agent names and per-event phrases](screenshots/sound.png)
-
-**Voices.** Choose any installed macOS voice, or leave it on *Automatic* to get the best voice
-installed for your language.
-
-![Voices: macOS system voices with preview buttons](screenshots/voices.png)
-
-**Log.** A day-by-day history of every spoken notification.
-
-![Log of spoken notifications for Claude Code and Codex](screenshots/log.png)
+![Sound & Phrases: speech rate, volume, agent names and per-event phrases](screenshots/sound.png)
 
 <sub>Screenshots use demo projects.</sub>
 
@@ -89,9 +102,9 @@ bar.
 The voice notifications described above are free, with no time limit and no account.
 
 Pro is optional and adds:
-- the **Agent Cockpit**, a widget at the edge of the screen with your active sessions;
+- the **Agent Cockpit**, the widget at the edge of the screen with your active sessions;
 - **jump to session**: click a notification to open that exact Claude Code session in VS Code;
-- **more voices**: hosted voices, or your own ElevenLabs key.
+- **more voices**: the Premium voice library, or your own ElevenLabs key.
 
 You can try the widget free for 14 days inside the app.
 
@@ -101,7 +114,7 @@ You can try the widget free for 14 days inside the app.
   It never reads or logs your prompts, your code or the agent's replies.
 - Apple voices run entirely on your Mac.
 - The local log keeps only the event type, the folder and the phrase that was spoken.
-- Hosted voices (Pro) receive only the short notification phrase.
+- Premium voices receive only the short notification phrase.
 
 Read the full [privacy policy](PRIVACY.md).
 
