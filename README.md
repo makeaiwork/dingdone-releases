@@ -24,7 +24,11 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/hero.gif" width="880" alt="DingDone in action: a notification card says which project is waiting, and a voice reads it out">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="screenshots/hero-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="screenshots/hero.gif">
+    <img src="screenshots/hero.gif" width="880" alt="DingDone in action: a notification card says which project is waiting, and a voice reads it out">
+  </picture>
 </p>
 
 ---
