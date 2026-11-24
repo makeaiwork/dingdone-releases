@@ -103,14 +103,11 @@ bar.
 
 ## Free and Pro
 
-The voice notifications described above are free, with no time limit and no account.
+Everything described above is free, with no time limit and no account: the voice notifications,
+the widget with your active sessions, and the jump to the exact session.
 
-Pro is optional and adds:
-- the **Agent Cockpit**, the widget at the edge of the screen with your active sessions;
-- **jump to session**: click a notification to open that exact Claude Code session in VS Code;
-- **more voices**: the Premium voice library, or your own ElevenLabs key.
-
-You can try the widget free for 14 days inside the app.
+Pro is optional and adds **more voices**: the Premium voice library, or your own ElevenLabs key.
+You can try Pro free for 14 days inside the app, with no card and no account.
 
 ## Privacy
 
