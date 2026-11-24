@@ -8,6 +8,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>DingDone update feed</description>
         <language>en</language>
         <item>
+            <title>1.2.10</title>
+            <pubDate>Tue, 24 Nov 2026 19:00:33 +0300</pubDate>
+            <sparkle:version>1.2.10</sparkle:version>
+            <sparkle:shortVersionString>1.2.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# DingDone 1.2.10
+
+## What's new
+
+- The agent widget is now free. The panel at the edge of the screen, Needs attention in the menu bar and jumping to the exact agent session all work without Pro and without a trial. Pro now covers premium voices and your own ElevenLabs key.
+
+## Fixed
+
+- Clicking a Claude Code notification opens that exact session in the VS Code sidebar again. Claude Code 2.1.331 had stopped this from working. The compatibility check is rebuilt so that routine Claude Code updates no longer switch the jump off. Reload open VS Code windows once after updating.
+- In the English interface, the widget's auto-hide time and the extension's Reinstall button are now in English.
+]]></description>
+            <enclosure url="https://github.com/makeaiwork/dingdone-releases/releases/download/v1.2.10/DingDone-1.2.10.dmg" length="13566141" type="application/octet-stream" sparkle:edSignature="P1+cqXLz1m4a06H000vXYz/kXsTxACRz5BZUO3tOS8NvmhqKcGl6eUY0asL8wNBPN+x8Ctwx99jQ2SabOWcJCw=="/>
+        </item>
+        <item>
             <title>1.2.9</title>
             <pubDate>Wed, 18 Nov 2026 17:47:47 +0300</pubDate>
             <sparkle:version>1.2.9</sparkle:version>
@@ -682,6 +702,6 @@ The first public release of DingDone.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /ZKcGhnkWn6Xy1KkJq9but4NfPoOewc/kott3mUfTnK6lkWwqp2k2cF6Mgg9mfzIpPYwi/jTdE+9Kkw/TMVDBA==
-length: 42989
+edSignature: YYYPuJ5O0wO/z++nqh/RtgLqMq1DTUJziDmjK5LtlOHwINQ+nNU0GqsCvuP3uwd9nmvXLciWwSVR3lRDqwAmDA==
+length: 44462
 -->
